@@ -370,16 +370,28 @@ h6{
         padding-bottom: 60px;
     }
     .text1 {
-        font-size: 30px;
+        font-size: 23px;
+        position: relative;
+        left: 5%;
+    }
+    .noshade1{
+        display: none;
     }
     .text2 {}
+    h{
+        display: none;
+    }
     .res {
         text-align: center;
         margin: 0 auto;
         height: 250px;
-        width: 100%;
+        width: 99%;
         position: relative;
         left: 0;
+    }
+    #lol14{
+        position: relative;
+        left: 0;width: 90%;
     }
     html body {
         overflow-y: visible;
@@ -457,6 +469,14 @@ h6{
         background-image: url('../img/arrow.svg');
         background-size: contain;
     }
+    .frame{
+        position: relative;
+        width:99%;
+        height: 250px;  
+    }
+    iframe{
+        width: 100%;
+    }
     .bounce {
         -moz-animation: bounce 2s infinite;
         -webkit-animation: bounce 2s infinite;
@@ -476,5 +496,12 @@ h6{
     }
     ::-webkit-scrollbar-thumb {
         background: rgba(0, 0, 0, 0.5);
+    }
+
+    .refrain{
+        position: relative;
+        margin-top: 20%;
+        left: 5%;
+        width: 90%;
     }
 }
