@@ -79,6 +79,7 @@ body {
     text-align: left;
     left: 10%;
     height: 1px;
+    display: none;
 }
 
 .img1 {
@@ -151,6 +152,7 @@ li {
     position: relative;
     margin: 0 auto;
     top: 30px;
+    display: none;
 }
 
 .button {
@@ -196,7 +198,7 @@ li {
     position: relative;
     font-weight: bold;
     text-align: left;
-    top: 70px;
+    top: 100px;
     left: 10%;
 }
 
@@ -217,7 +219,7 @@ li {
     text-align: center;
     margin: 0 auto;
     left: 30%;
-    top: 60px;
+    top: 100px;
     margin-bottom: 50px;
     border: 2px solid #04062B;
 }
