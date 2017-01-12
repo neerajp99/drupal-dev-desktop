@@ -306,6 +306,13 @@ h5{
     left: 10%;
     top: 10px;
 }
+h6{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
 .ab{
     position: relative;
     width: 80%;
