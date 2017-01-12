@@ -79,7 +79,6 @@ body {
     text-align: left;
     left: 10%;
     height: 1px;
-    display: none;
 }
 
 .img1 {
@@ -152,7 +151,6 @@ li {
     position: relative;
     margin: 0 auto;
     top: 30px;
-    display: none;
 }
 
 .button {
@@ -198,7 +196,7 @@ li {
     position: relative;
     font-weight: bold;
     text-align: left;
-    top: 100px;
+    top: 70px;
     left: 10%;
 }
 
@@ -219,7 +217,7 @@ li {
     text-align: center;
     margin: 0 auto;
     left: 30%;
-    top: 100px;
+    top: 60px;
     margin-bottom: 50px;
     border: 2px solid #04062B;
 }
@@ -507,5 +505,23 @@ h6 {
         margin-top: 20%;
         left: 5%;
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 1080px),
+screen and (min-height: 900px) {
+    .refrain {
+        position: relative;
+        top: 4%;
+    }
+    .res {}
+    h {}
+    h2 {}
+    .text1 {
+        position: relative;
+        top: 3%;
+    }
+    .noshade1 {
+        display: none;
     }
 }
