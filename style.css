@@ -4,14 +4,12 @@
     overflow-x: hidden;
 }
 
-
 html,
 body {
     height: 100%;
     width: 100%;
     overflow: hidden;
     overflow: -moz-scrollbars-vertical;
-    
     font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
@@ -33,23 +31,25 @@ body {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.list-inline{
-position: relative;
+.list-inline {
+    position: relative;
     display: inline-block;
     margin-top: 30%;
     text-align: center;
-
 }
-.list-inline > li{
-        position: relative;
+
+.list-inline > li {
+    position: relative;
     display: inline-block;
     margin-left: 22px;
     margin-right: 15px;
 }
-.list-inline > li > a > i{
+
+.list-inline > li > a > i {
     color: #fff;
 }
-.list-inline > li > a > i:hover{
+
+.list-inline > li > a > i:hover {
     opacity: 0.4;
 }
 
@@ -70,7 +70,7 @@ position: relative;
 }
 
 .noshade1 {
-  width: 32%;
+    width: 32%;
     text-align: center;
     /* margin: 0 auto; */
     position: relative;
@@ -99,7 +99,6 @@ position: relative;
     height: 100%;
     width: 100%;
     background-color: #FBF8F7;
-
     /*padding-bottom: 100px;*/
 }
 
@@ -134,7 +133,6 @@ h {
     display: table;
     font-weight: bolder;
     margin-top: 50px;
-   
 }
 
 li {
@@ -201,7 +199,8 @@ li {
     top: 70px;
     left: 10%;
 }
-.refrain{
+
+.refrain {
     text-align: left;
     width: 80%;
     position: relative;
@@ -218,8 +217,8 @@ li {
     text-align: center;
     margin: 0 auto;
     left: 30%;
-    top: 40px;
-    bottom: 40px;
+    top: 60px;
+    margin-bottom: 50px;
     border: 2px solid #04062B;
 }
 
@@ -236,9 +235,10 @@ li {
     top: 30px;
 }
 
-span{
+span {
     font-weight: bold;
 }
+
 .disable {
     cursor: not-allowed;
     pointer-events: none;
@@ -251,7 +251,8 @@ span{
     cursor: not-allowed;
     pointer-events: none;
 }
-.frame{
+
+.frame {
     height: 300px;
     width: 50%;
     text-align: center;
@@ -261,25 +262,23 @@ span{
     top: 40px;
     margin-bottom: 100px;
     overflow: hidden;
-
-
-
 }
-iframe{
+
+iframe {
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
-.drup{
+
+.drup {
     text-align: center;
     position: relative;
     font-family: Lato;
     font-size: 20px;
     margin: 0 auto;
-
 }
 
-#loll{
+#loll {
     text-align: center;
     padding-bottom: 70px;
 }
@@ -300,20 +299,23 @@ h11 {
     padding-bottom: 100px;
     top: 50px;
 }
-h5{
+
+h5 {
     font-size: 20px;
     position: relative;
     left: 10%;
     top: 10px;
 }
-h6{
+
+h6 {
     font-size: 25px;
     position: relative;
     top: 10px;
     text-align: center;
     margin: 0 auto;
 }
-.ab{
+
+.ab {
     position: relative;
     width: 80%;
     left: 10%;
@@ -374,11 +376,11 @@ h6{
         position: relative;
         left: 5%;
     }
-    .noshade1{
+    .noshade1 {
         display: none;
     }
     .text2 {}
-    h{
+    h {
         display: none;
     }
     .res {
@@ -389,9 +391,10 @@ h6{
         position: relative;
         left: 0;
     }
-    #lol14{
+    #lol14 {
         position: relative;
-        left: 0;width: 90%;
+        left: 0;
+        width: 90%;
     }
     html body {
         overflow-y: visible;
@@ -469,12 +472,12 @@ h6{
         background-image: url('../img/arrow.svg');
         background-size: contain;
     }
-    .frame{
+    .frame {
         position: relative;
-        width:99%;
-        height: 250px;  
+        width: 99%;
+        height: 250px;
     }
-    iframe{
+    iframe {
         width: 100%;
     }
     .bounce {
@@ -497,8 +500,7 @@ h6{
     ::-webkit-scrollbar-thumb {
         background: rgba(0, 0, 0, 0.5);
     }
-
-    .refrain{
+    .refrain {
         position: relative;
         margin-top: 20%;
         left: 5%;
